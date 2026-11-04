@@ -1,15 +1,15 @@
 {
   "id": "./",
-  "name": "Mi Cartera · iPhone 3.4.9",
+  "name": "Mi Cartera · iPhone 3.5.2",
   "short_name": "Mi Cartera",
-  "description": "Mi Cartera iPhone 3.4.9 con rutas independientes, historial de puntualidad, Google Maps, documentos, copias en Drive y acceso por PIN y bloqueo configurable.",
+  "description": "Mi Cartera iPhone 3.5.2 con rutas independientes, historial de puntualidad, Google Maps, documentos, copias en Drive y acceso por PIN y bloqueo configurable.",
   "lang": "es",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f4f7ff",
-  "theme_color": "#f4f7ff",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
   "icons": [
     {
       "src": "icon-192.png",

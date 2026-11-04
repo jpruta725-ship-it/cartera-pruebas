@@ -1,0 +1,63 @@
+/* Android 2.19.1: original Android palette; layout and data remain unchanged. */
+:root{color-scheme:dark;--bg:#0b1220;--white:#172337;--card:#172337;--ink:#f0f5fd;--text:#f0f5fd;--muted:#9dacc0;--line:#40516a;--green:#34d399;--green2:#193b35;--soft-green:#193b35;--red:#fb7185;--amber:#fbbf24;--blue:#67b8ef;--violet:#67b8ef;--shadow:0 8px 26px #0003}
+html,body{background:#0b1220;color:var(--ink);background-image:none}
+.topbar,.tabbar,.modal,.security-gate,.security-panel{background:#0b1220;color:var(--ink);border-color:var(--line)}
+.card,.metric,.quick,.search,.xbtn,.iconbtn,.checkrow label,.btn.ghost,.field input,.field select,.field textarea,.empty,.menu-choice,.client-option,.security-symbol{background:#172337;color:var(--ink);border-color:var(--line)}
+.brandicon,.btn.primary,.fab,.chip.active,.workflow-payment-tab.selected{background:#34d399;color:#0b1220;border-color:#34d399;box-shadow:var(--shadow)}
+.btn.secondary,.segment.active,.client-option.selected,.tab.active span,.installhint,.mc-state,.security-status.is-on,.pill.green,.workflow-count-good{background:#193b35;color:#34d399;border-color:#34d399}
+.welcome,.hero-cash,.mc-overview{background:#112d29;color:var(--ink);border-color:#193b35}
+.welcome p,.eyebrow,.mc-overview p,.mc-kicker,.hero-cash .sub{color:#9dacc0}
+.brand b,.sectionhead h2,.fieldlabel,.field label,.mc-overview h2,.security-panel h1,.security-discreet h1,.detailbox b{color:var(--ink)}
+.metric .metricicon,.metrics>.metric .metricicon,.detailbox,.compact-summary,.segments,.chip,.icon-dots,.workflow-person-loan,.workflow-renew-preview,.workflow-renew-banner,.workflow-explainer,.mc-guide,.mc-guide summary span,.mc-step>span{background:#223149;color:var(--ink);border-color:var(--line)}
+.detailbox small,.mc-step p,.workflow-renew-preview span,.security-panel p,.security-discreet p,.security-panel .security-hint,.security-footnote,.tab,.segment{color:var(--muted)}
+.amount,.quick span,.receiptlink,.tab.active,.compact-summary strong,.workflow-paid .workflow-payment b,.workflow-renew-preview b,.choice-mark,.client-option.selected .choice-mark,.security-text-link{color:#34d399}
+.btn.danger,.pill.red,.danger-choice,.danger-zone{background:#392330;color:#fb7185;border-color:#713746}
+.note,.soft-warning,.pill.amber,.clavo-alert,.workflow-count-warn,.workflow-ack,.mc-state.closed{background:#352c1b;color:#fbbf24;border-color:#735b2b}
+.clavo-alert strong{color:#fbbf24}
+.progress,.quality-progress,.mc-progress,.mini-bars .bar-plot{background:#223149}
+.progress i,.quality-progress i,.mc-progress i,.mini-bars .bar-plot i{background:#34d399}
+.workflow-paid{border-left-color:#34d399}.mc-step{border-color:var(--line)}
+.modalback{background:#000b}.toast{background:#193b35;color:#f0f5fd}.security-status{background:#223149;color:#9dacc0}
+input::placeholder,textarea::placeholder{color:#9dacc0}
+button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#34d399}
+/* iPhone 3.5.2 — clear cash balance and compact collection cards. */
+.route-switch,.route-current,.security-mark{background:#193b35!important;color:#34d399!important;border-color:#40516a!important}
+.red-val{color:#fb7185}.green-val{color:#34d399}
+.collection-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.collection-actions>.btn{min-height:54px;padding:10px 8px;white-space:normal;line-height:1.35;font-size:13px}
+.collection-extra{border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
+.collection-extra[hidden]{display:none!important}
+.collection-extra>.stickyactions:empty{display:none}
+.workflow-loan .rowtop>div:first-child{min-width:0}.workflow-loan .card-end{flex-shrink:0;gap:6px}
+.workflow-loan .cardtitle{font-size:15px}.workflow-loan .sub{line-height:1.6}
+.cash-focus{background:linear-gradient(120deg,#112d29,#172337);border:1px solid #386458;border-radius:22px;padding:22px;margin:12px 0 16px}
+.cash-eyebrow{font-size:11px;font-weight:800;letter-spacing:.09em;color:#b9d9ce}
+.cash-balance{display:block;font-size:clamp(28px,8vw,42px);line-height:1.2;color:#58e6b5;margin:16px 0 12px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.cash-balance.negative{color:#fb7185}.cash-focus p{font-size:13px;color:#c2d0de;line-height:1.6;margin:8px 0}.cash-period{border-top:1px solid #355047;padding-top:12px;margin-top:15px;color:#9dacc0;font-size:12px;line-height:1.6}
+.cash-equation h3,.cash-fold h3{font-size:15px;margin:0 0 12px}.cash-fold h3:not(:first-child){margin-top:22px}
+.cash-line{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:13px 0;border-bottom:1px solid #29394e;line-height:1.45}
+.cash-line>div{min-width:0}.cash-line span{font-size:13px;font-weight:650}.cash-line small{display:block;font-size:11px;color:#9dacc0;margin-top:4px}.cash-line b{font-size:15px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums;max-width:52%;overflow-wrap:anywhere}
+.cash-in b{color:#58e6b5}.cash-out b{color:#fb7185}.cash-warning b{color:#fbbf24}.cash-result{border:0;background:#193b35;padding:14px 12px;margin:10px -4px 0;border-radius:12px}.cash-result b{color:#58e6b5}
+.cash-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}.cash-actions .btn{min-height:48px;white-space:normal;line-height:1.4}
+.cash-fold{background:#172337;border:1px solid #40516a;border-radius:16px;margin:12px 0;overflow:hidden}
+.cash-fold>summary{padding:17px 16px;font-size:13px;font-weight:750;cursor:pointer;line-height:1.5;min-height:52px}.cash-fold>summary span{float:right;color:#9dacc0;margin-left:8px}
+.cash-fold-body{padding:0 16px 16px}.cash-fold-body>p{line-height:1.6}.cash-close{margin:8px 0 16px;min-height:50px}
+.cash-history{border-top:1px solid #40516a;padding:12px 0}.cash-history>summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;padding:8px 0;font-size:13px}.cash-history>summary small{display:block;color:#9dacc0;margin-top:4px}.cash-history>summary b{color:#58e6b5;text-align:right}
+.cash-movement{padding:15px 0;border-top:1px solid #40516a;font-size:13px}.cash-movement .btn{margin-top:10px}.cash-movement strong{max-width:45%;text-align:right;overflow-wrap:anywhere;flex-shrink:0}.cash-movement .rowtop>div{min-width:0;overflow-wrap:anywhere}
+.cash-close-summary{background:#172337;border:1px solid #40516a;border-radius:14px;padding:12px;margin-bottom:16px}
+@media(max-width:380px){.cash-focus{padding:17px}.cash-line{gap:8px}.cash-line b{font-size:13px}.workflow-loan .card-end .pill{font-size:10px;padding:5px}.collection-actions{gap:8px}}
+/* These screens already expose their main actions; keep the floating button off the cards. */
+body:has(#collections.active) #quickFab,body:has(#cash.active) #quickFab{display:none!important}
+/* Shared surfaces: reports, upcoming installments, documents, routes and dialogs. */
+.report-month-card,.report-metric,.daily-chart,.donut-hole,.route-item,.upcoming-details,.client-map-card,.integrity-issue{background:#172337;border-color:#40516a;box-shadow:var(--shadow)}
+.report-metric.highlight{background:#193b35;border-color:#386458}
+.upcoming-values>div,.doc-upload,.doc-row,.doc-icon,.report-metric-icon,.integrity-grid>div,.payment-stepper{background:#223149;border-color:#40516a;color:#f0f5fd}
+.report-month-card .search{color-scheme:dark}
+.report-section>span,.report-pill,.upcoming-details summary,.upcoming-installment strong,.doc-upload-icon,.doc-links a,.doc-links button,.client-map-link,.quality-score strong{color:#58e6b5}
+.report-pill,.cash-reopen,.cash-reopen-hero,.payment-quota-summary,.route-item.route-active,.integrity-tag.success{background:#193b35;border-color:#386458;color:#58e6b5}
+.cash-reopen span,.doc-upload small,.comparison-legend span{color:#9dacc0}.cash-reopen strong{color:#58e6b5}
+.maps-result{background:#193b35;color:#58e6b5!important}.maps-client-field>small b{color:#67b8ef}
+.integrity-tag.amber{background:#352c1b;color:#fbbf24}.integrity-tag.danger{background:#392330;color:#fb7185}
+.doc-upload input[type=file]::file-selector-button{background:#193b35;color:#58e6b5}
+.horizontal-bar-track{background:#223149}.comparison-pair{background:repeating-linear-gradient(to top,transparent,transparent 27px,#29394e 28px);border-color:#40516a}
+.report-stat-row,.upcoming-credit-card,.upcoming-installment,.installment-list,.doc-entry,.client-quality-inline,.quality-history .row{border-color:#40516a}

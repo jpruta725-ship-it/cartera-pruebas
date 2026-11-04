@@ -1,5 +1,5 @@
-const CACHE='micartera-v351-auditoria-visual';
-const FILES=['./','./index.html','./styles.css','./app.js','./parity.js','./documents.js','./improvements.js','./integrity.js','./quality.js','./maps.js','./routes.js','./google-client.js','./drive.js','./security.js','./workflow.js','./experience.js','./experience.css','./manifest.json','./icon-192.png','./icon-512.png'];
+const CACHE='micartera-v352-caja-cobros-oscuros';
+const FILES=['./','./index.html','./styles.css','./app.js','./parity.js','./documents.js','./improvements.js','./integrity.js','./quality.js','./maps.js','./routes.js','./google-client.js','./drive.js','./security.js','./workflow.js','./experience.js','./experience.css','./clarity.js','./dark.css','./manifest.json','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));
 });

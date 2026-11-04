@@ -4,7 +4,7 @@
  * Renovar liquida el saldo anterior con un abono y crea un préstamo nuevo.
  */
 (function(){
-  const RELEASE = '3.5.1';
+  const RELEASE = '3.5.2';
   let paymentView = 'pending';
   let frequencyView = 'all';
   const freqLabels = {all:'Todas',daily:'Diarios',weekly:'Semanales',fortnightly:'Quincenales',monthly:'Mensuales'};

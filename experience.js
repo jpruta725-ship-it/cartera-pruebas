@@ -1,5 +1,5 @@
 'use strict';
-/* Mi Cartera 3.5.1: ayuda contextual y cálculos indexados solo durante cada render.
+/* Mi Cartera 3.5.2: ayuda contextual y cálculos indexados solo durante cada render.
    No cambia claves, datos financieros ni formato de respaldo. */
 (function(){
   let viewIndex=null;
@@ -32,7 +32,7 @@
     anchor?.insertAdjacentHTML('afterend',guide('Por pagar y Abonado hoy: ¿qué cambia?', '<p><b>Por pagar:</b> créditos con saldo que todavía no tienen un abono registrado hoy. Incluye cuotas futuras.</p><p><b>Abonado hoy:</b> créditos con al menos un abono registrado hoy; pueden conservar saldo pendiente. Puedes añadir otro abono o eliminar uno equivocado.</p><p>Las categorías de frecuencia y la búsqueda ayudan a encontrar cada crédito. Un abono parcial no equivale a una cuota completa.</p>'));
   };
   const settings=renderSettings;
-  renderSettings=function(){settings();$('#settings')?.insertAdjacentHTML('afterbegin',`<section class="mc-overview mc-release"><span class="mc-kicker">MI CARTERA · 3.5.1</span><h2>Más claro, paso a paso</h2><p>Cobros simplificados, renovación con liquidación y revisión de cálculos y guardado.</p>${btn('Revisar mis datos','open-integrity','secondary')}</section>`)};
+  renderSettings=function(){settings();$('#settings')?.insertAdjacentHTML('afterbegin',`<section class="mc-overview mc-release"><span class="mc-kicker">MI CARTERA · 3.5.2</span><h2>Caja clara y cobros compactos</h2><p>Saldo de Caja explicado, detalles de Cobros desplegables y colores oscuros.</p>${btn('Revisar mis datos','open-integrity','secondary')}</section>`)};
   renderDashboard=indexed(renderDashboard);renderClients=indexed(renderClients);renderLoans=indexed(renderLoans);
   renderCollections=indexed(renderCollections);renderCash=indexed(renderCash);renderCharts=indexed(renderCharts);renderSettings=indexed(renderSettings);
   // Conserva la guía desplegada al buscar o cambiar categorías.
